@@ -62,7 +62,7 @@ let groceries =[ 'apples', 'milk' , 'eggs', 'bread'];
 //and goodBoy (a boolean).
 
 let dog = {
-  name: devMountainClassPet,
+  name: 'Spot',
   color: 'brown',
   age: 4,
   goodBoy: true
@@ -86,7 +86,7 @@ function nameCheck(name){
   if (name == 'Steven'){
     return 'What is up Steven?'
   }
-  if (name == 'Bryan'){
+  else if (name == 'Bryan'){
     return 'Hey Bryan!'
   }
   else{
@@ -101,6 +101,7 @@ function nameCheck(name){
 // The add function should return the two parameters added together
 
 function add(num1, num2){
+  let mathSum = num1 + num2;
   return num1 + num2;
 }
 
@@ -108,6 +109,7 @@ function add(num1, num2){
 //storing the result in the variable mathSum.
 
 console.log(add(3,4));
+
 
 
 //////////////////PROBLEM 12////////////////////
@@ -123,10 +125,10 @@ function faveColorFinder(color){
   if(color == 'red'){
     return 'red is a great color'
   }
-  if(color == 'green'){
+  else if(color == 'green'){
     return 'green is a solid favorite color'
   }
-  if(color == 'black'){
+  else if(color == 'black'){
     return 'so trendy'
   }
   else{
@@ -156,7 +158,7 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
 let bathroomScope = ["duck", "rubberDuck"];
@@ -181,4 +183,4 @@ console.log('this is age after birthday: ' + bdayAge)
 
 // Good news! We can live forever. Set your age to 999
 
-// Code Here
+let newAge = 999;
