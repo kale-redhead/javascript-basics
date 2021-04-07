@@ -100,15 +100,14 @@ function nameCheck(name){
 // that will be numbers.
 // The add function should return the two parameters added together
 
-function add(one, two){
-  let mathSum = one + two;
-  return mathSum;
+function add(num1, num2){
+  return num1 + num2;
 }
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
-console.log(add(3, 4))
+console.log(add(3,4));
 
 
 //////////////////PROBLEM 12////////////////////
@@ -160,13 +159,13 @@ function pond() {
 let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
